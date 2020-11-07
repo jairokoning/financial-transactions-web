@@ -123,3 +123,14 @@ const Dashboard: React.FC = () => {
 };
 
 export default Dashboard;
+
+/**
+ *
+ * formattedDate: format(
+            zonedTimeToUtc(transaction.created_at, 'America/Sao_Paulo'),
+            'dd/mm/yyyy HH:mm',
+            {
+              timeZone: 'America/Sao_Paulo',
+            },
+          ),
+ */
